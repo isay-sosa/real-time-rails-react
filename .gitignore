@@ -130,3 +130,5 @@ server/real_time/test
 
 server/real_time/tmp
 server/real_time/log
+
+client/node_modules

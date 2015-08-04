@@ -1,0 +1,41 @@
+{
+  "name": "real_time",
+  "version": "0.0.0",
+  "description": "React client with real time functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify -t reactify src/app.js > build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iszandro/real-time-rails-react.git"
+  },
+  "keywords": [
+    "npm",
+    "react",
+    "client",
+    "real",
+    "time"
+  ],
+  "author": "Isay Sosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iszandro/real-time-rails-react/issues"
+  },
+  "homepage": "https://github.com/iszandro/real-time-rails-react",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-open": "^1.0.0",
+    "gulp-react": "^3.0.1",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1",
+    "superagent": "^1.2.0"
+  }
+}
